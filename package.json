@@ -1,0 +1,26 @@
+﻿{
+    "name": "anogame.ucp.csvutility",
+    "version": "0.0.1",
+    "displayName": "CSV Utility",
+    "description": "CSV Utility",
+    "unity": "2019.1",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/everystudio/ucp.csvutility.git"
+    },
+    "author": "anogame.watanabe",
+    "dependencies": {
+    },
+    "keywords": [
+        "system"
+    ],
+    "samples":
+    [
+        {
+            "displayName":"Sample Model",
+            "description":"How to use CSV Utility",
+            "path":"Samples~/ModelSample"
+        }
+    ]
+}
