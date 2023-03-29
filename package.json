@@ -21,6 +21,12 @@
             "displayName":"Sample Model",
             "description":"How to use CSV Utility",
             "path":"Samples~/ModelSample"
+        },
+        {
+            "displayName":"Test Model",
+            "description":"How to use CSV Utility",
+            "path":"Test/TestModel"
         }
+
     ]
 }
