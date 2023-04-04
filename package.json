@@ -20,7 +20,7 @@
         {
             "displayName":"SampleModel",
             "description":"How to use CSV Utility",
-            "path":"Demo/ModelSample"
+            "path":"Demo~/ModelSample"
         }
     ]
 }
