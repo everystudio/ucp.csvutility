@@ -1171,10 +1171,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1512295506}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d45a4e0c7a371c43822e3d94c6c86de, type: 3}
+  m_Script: {fileID: 11500000, guid: ce9606ae073e78747b9fa887c1bf227d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localCsvFile: {fileID: 4900000, guid: 83a754c6fb73bcc44a091457ed5b25ca, type: 3}
+  localCsvFile: {fileID: 4900000, guid: e46a5011e9369bc4a84c4796df2ec291, type: 3}
   saveFilename: test_file
 --- !u!4 &1512295508
 Transform:
