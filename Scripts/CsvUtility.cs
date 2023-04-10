@@ -215,6 +215,7 @@ namespace anogame
         }
         virtual public bool Load(string _strFilename)
         {
+            saveFilename = _strFilename;
             return Load(_strFilename, Application.persistentDataPath);
         }
 
