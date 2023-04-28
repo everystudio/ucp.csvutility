@@ -135,6 +135,7 @@ namespace anogame
         }
     }
 
+    [System.Serializable]
     public class CsvModel<T> where T : CsvModelParam, new()
     {
         public List<T> List => list;
