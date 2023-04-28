@@ -140,8 +140,20 @@ namespace anogame
     {
         public List<T> List => list;
         public List<T> All { get { return list; } }
-        public List<T> list = new List<T>();
+        private List<T> list = new List<T>();
         public bool IsLoaded => loadedActionFinished;
+
+        public string GetJson()
+        {
+            (List<T> model_list, int dummy) ret = (list, 0);
+            return JsonUtility.ToJson(ret);
+        }
+        public bool ApplyJson(string json)
+        {
+            (List<T> model_list, int dummy) ret = JsonUtility.FromJson<(List<T> model_list, int dummy)>(json);
+            list = ret.model_list;
+            return true;
+        }
 
         public CsvModel() { }
         public CsvModel(TextAsset textAsset)
